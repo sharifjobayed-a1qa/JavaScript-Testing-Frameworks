@@ -2,11 +2,11 @@
 
 describe(`The test suite`,()=>{
 
-	before(()=>{});
-	after(()=>{});
+	before(async ()=>{});
+	after(async ()=>{});
 
-	beforeEach(()=>{});
-	afterEach(()=>{});
+	beforeEach(async ()=>{});
+	afterEach(async ()=>{});
 
 	it(`A demo test case`,()=>{});
 	it(`A demo test case`,()=>{});
