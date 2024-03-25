@@ -1,8 +1,8 @@
 
 
-const assert=require(`chai`).assert;
-const expect=require(`chai`);
-// const{assert,expect}=require(`chai`);
+// const assert=require(`chai`).assert;
+// const expect=require(`chai`);
+import { assert, expect } from `chai`;
 
 
 describe(`Array`,function(){

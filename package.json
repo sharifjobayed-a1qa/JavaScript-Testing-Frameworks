@@ -4,6 +4,7 @@
     "mocha": "^10.3.0"
   },
   "scripts": {
+    "type":"module",
     "test": "mocha myTests/"
   }
 }
