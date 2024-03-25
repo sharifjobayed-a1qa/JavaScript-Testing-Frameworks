@@ -2,13 +2,27 @@
 
 describe(`The test suite`,()=>{
 
-	before(async ()=>{});
-	after(async ()=>{});
+	before(async ()=>{
+		// Pre-test conditions
+	});
+	after(async ()=>{
+		// Post-test conditions
+	});
 
-	beforeEach(async ()=>{});
-	afterEach(async ()=>{});
+	beforeEach(async ()=>{
+		// Pre-test conditions
+	});
+	afterEach(async ()=>{
+		// Post-test conditions
+	});
 
-	it(`A demo test case`,()=>{});
-	it(`A demo test case`,()=>{});
+	
+
+	it(`A demo test case`,()=>{
+		// Test code...
+	});
+	it(`A demo test case`,()=>{
+		// Test code...
+	});
 
 });
