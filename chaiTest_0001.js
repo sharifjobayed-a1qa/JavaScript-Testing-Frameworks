@@ -1,13 +1,13 @@
 
 
-// const assert=require(`chai`).assert;
-// const expect=require(`chai`);
 import { assert, expect } from 'chai';
 
 
 describe(`Array`,function(){
 
 	describe(`#indexOf()`,function(){
+
+		this.retries(3);
 
 		it(`should return -1 when the value is not present`,function(){
 			const arr1=[6,3,8];
