@@ -21,8 +21,8 @@ describe(`Math`,function(){
 	});
 
 	it(`should check if an object has a specific property`,function(){
-		let obj1={branc:`Honda`,model:`CBR1000RR`}
-		expect(obj1).to.have.property(`model`,`Property not found in the object.`);
+		let obj1={brand:`Honda`,model:`CBR1000RR`}
+		expect(obj1).to.have.property('model',`Property not found in the object.`);
 	});
 
 });
